@@ -1,4 +1,11 @@
 .page {
-    background: #2A2C2F;
-    color: white;
+  background: #2A2C2F;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  .page {
+    font-family: 'Inter var', sans-serif;
+  }
 }
