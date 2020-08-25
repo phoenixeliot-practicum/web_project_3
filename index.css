@@ -1,6 +1,7 @@
 @import './normalize.css';
 @import './fonts/inter.css';
 @import './blocks/page/page.css';
+@import './blocks/section/section.css';
 @import './blocks/content/content.css';
 @import './blocks/header/header.css';
 @import './blocks/lead/lead.css';

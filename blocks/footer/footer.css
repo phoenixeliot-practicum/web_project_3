@@ -2,5 +2,6 @@
 @import './__link-list-item/footer__link-list-item.css';
 @import './__link/footer__link.css';
 @import './__copyright/footer__copyright.css';
-
-.footer {}
+.footer {
+  margin-top: 64px;
+}
