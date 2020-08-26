@@ -1,9 +1,13 @@
 .place__paragraph {
-  margin: 24px 16px;
+  margin: 0 16px;
   font-family: Inter;
   font-weight: normal;
   font-size: 16px;
   line-height: 163%;
+}
+
+.place__paragraph~.place__paragraph {
+  margin-top: 24px;
 }
 
 @media (min-width: 768px) {

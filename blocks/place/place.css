@@ -6,13 +6,12 @@
 @import './__image/place__image.css';
 .place {
   /* display: block; */
-  margin-top: 48px;
+  margin: 48px 0;
 }
 
 @media (min-width: 768px) {
   .place {
-    margin-left: 24px;
-    margin-right: 24px;
+    margin: 72px 24px;
     display: grid;
     grid-template-rows: repeat(2, auto);
     grid-template-columns: 1fr 1.03fr;
@@ -22,8 +21,7 @@
 
 @media (min-width: 1024px) {
   .place {
-    margin-left: 48px;
-    margin-right: 48px;
+    margin: 80px 48px;
     gap: 32px;
   }
 }
