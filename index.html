@@ -10,9 +10,9 @@
 
 <body>
   <div class="page">
-    <header class="header">
+    <header class="header default-column">
       <div class="logo">
-        <svg width="156" height="36" viewBox="0 0 156 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="auto" height="auto" viewBox="0 0 156 36" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M72 17.0695V13.8993H84.5059V17.0695H80.178V28.3917H76.3279V17.0695H72Z" fill="white" />
           <path
             d="M89.9104 22.2777V28.3917H86.0322V13.8993H89.7699V19.5887H89.8823C90.1259 18.8952 90.531 18.3551 91.0978 17.9682C91.6645 17.5767 92.346 17.3809 93.1423 17.3809C93.9057 17.3809 94.5685 17.5554 95.1306 17.9045C95.6973 18.2536 96.1352 18.7348 96.4444 19.3481C96.7582 19.9614 96.9128 20.6643 96.9081 21.4569V28.3917H93.0299V22.2777C93.0345 21.7399 92.9011 21.3177 92.6294 21.0111C92.3624 20.7044 91.9807 20.5511 91.4842 20.5511C91.0111 20.5511 90.6317 20.7044 90.346 21.0111C90.0603 21.3177 89.9151 21.7399 89.9104 22.2777Z"
@@ -38,15 +38,16 @@
       <a href="TODO" class="header__lang-link">Es</a>
     </header>
     <main class="content">
-      <section class="lead section">
-        <h1 class="lead__title">From Portland to Portland</h1>
-        <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
-        <img src="TODO" alt="TODO" class="lead__image">
-        <p class="lead__caption">
+      <section class="section flex-column flex-column_center_horizontal">
+        <h1 class="lead__title default-column">From Portland<br>to Portland</h1>
+        <p class="lead__subtitle default-column">An epic bicycle journey from&nbsp;Portland,&nbsp;ME.
+          to&nbsp;Portland,&nbsp;OR</p>
+        <img src="./images/lead-mountains.jpg" alt="Black and white image of mountains" class="lead__image">
+        <p class="lead__caption default-column">
           Your journey starts here
         </p>
       </section>
-      <section class="intro section">
+      <section class="section intro default-column">
         <h2 class="intro__title">Know the country you live in a little better</h2>
         <p class="intro__text intro__text_subtitle">
           That's exactly what we have arranged for you via this travel story
@@ -78,7 +79,7 @@
           </li>
         </ul>
       </section>
-      <section class="photo-grid section">
+      <section class="section photo-grid default-column">
         <img src="/images/photo-grid-highway.jpg" alt="TODO" class="photo-grid__item">
         <img src="/images/photo-grid-lake.jpg" alt="TODO" class="photo-grid__item">
         <img src="/images/photo-grid-seagulls.jpg" alt="TODO" class="photo-grid__item">
@@ -94,8 +95,7 @@
         <img src="/images/photo-grid-wires.jpg" alt="TODO" class="photo-grid__item">
         <img src="/images/photo-grid-road.jpg" alt="TODO" class="photo-grid__item">
       </section>
-      <!-- TODO: Should this all be one section, or each place get a section? -->
-      <section class="places section">
+      <section class="section places">
         <ul class="places__list">
           <li class="place">
             <h2 class="place__title">Maine</h2>
@@ -103,7 +103,7 @@
               <span class="place__url-heading">URL</span>
               <a href="#TODO" class="place__link">global.llbean.com</a>
             </div>
-            <img src="TODO" alt="TODO" class="place__image">
+            <img src="/images/place-maine.jpg" alt="TODO" class="place__image">
             <p class="place__paragraph">
               Still, as sparsely populated as it was in the 1600s, this is an extraordinary and highly underrated state
               full of rich history and majestic natural beauty. Maine is the main state you want to be sure not to miss.
@@ -124,7 +124,7 @@
               <span class="place__url-heading">URL</span>
               <a href="#TODO" class="place__link">timberland.com</a>
             </div>
-            <img src="TODO" alt="TODO" class="place__image">
+            <img src="/images/place-new-hampshire.jpg" alt="TODO" class="place__image">
             <p class="place__paragraph">
               There's no better place to lose yourself in nature than in springtime New Hampshire. As serene and
               beautiful as it was in the 1700s, this state is still much less traveled than its neighbors to the South.
@@ -147,7 +147,7 @@
               <span class="place__url-heading">URL</span>
               <a href="#TODO" class="place__link">ge.com</a>
             </div>
-            <img src="TODO" alt="TODO" class="place__image">
+            <img src="/images/place-new-york.jpg" alt="TODO" class="place__image">
             <p class="place__paragraph">
               Not only famous for “The Big Apple,” the state of NY also has several other reasons for going down in
               history. Since the late 1800s Schenectady, “The City that Lights and Hauls the World,” has been home to
@@ -165,7 +165,7 @@
               <span class="place__url-heading">URL</span>
               <a href="#TODO" class="place__link">www.fws.gov</a>
             </div>
-            <img src="TODO" alt="TODO" class="place__image">
+            <img src="/images/place-pennsylvania.jpg" alt="TODO" class="place__image">
             <p class="place__paragraph">
               Erie, Pennsylvania, not to be confused with the word “eerie,” although it can be from time to time, is
               another town worth passing through for several different reasons. While it might be most famously known as
@@ -188,7 +188,7 @@
               <span class="place__url-heading">URL</span>
               <a href="https://cedarpoint.com" class="place__link">cedarpoint.com</a>
             </div>
-            <img src="TODO" alt="TODO" class="place__image">
+            <img src="/images/place-ohio.jpg" alt="TODO" class="place__image">
             <p class="place__paragraph">
               From the college capital of Columbus to the clean coastline of Cleveland, Ohio is a truly hidden gem.
               Earthquakes are surprisingly common in this particular region of North America, over 200 of which have
@@ -204,7 +204,7 @@
           </li>
         </ul>
       </section>
-      <section class="cover section">
+      <section class="section cover default-column">
         <h2 class="cover__title">Historic Route 66</h2>
         <p class="cover__subtitle">
           The Main Street of America

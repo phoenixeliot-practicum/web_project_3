@@ -1,30 +1,3 @@
 .section {
-  margin: 64px 16px 0;
-  box-sizing: border-box;
-}
-
-/*
-TODO: Maybe split off the left/right margins into a modifier
-Since the Intro section needs a full-width picture inside it.
-
-(And some sections are full-width at different resolutions)
-Maybe use calc for min-width for those or sth?
-*/
-
-@media screen and (min-width: 768px) {
-  .section {
-    margin-left: 24px;
-    margin-right: 24px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .section {
-    margin-left: 48px;
-    margin-right: 48px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .section {}
+  margin-top: 64px;
 }
