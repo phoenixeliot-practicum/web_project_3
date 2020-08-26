@@ -1,1 +1,3 @@
-.footer__links {}
+.footer__links {
+  list-style: none;
+}
