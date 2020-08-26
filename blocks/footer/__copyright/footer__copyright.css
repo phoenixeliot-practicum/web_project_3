@@ -1,4 +1,13 @@
 .footer__copyright {
   display: block;
   margin-top: 48px;
+  justify-self: end;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+@media (min-width: 768px) {
+  .footer__copyright {
+    line-height: 16px;
+  }
 }
