@@ -1,3 +1,20 @@
 .place__website {
   display: none;
 }
+
+@media (min-width: 768px) {
+  .place__website {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place__website {}
+}
+
+@media (min-width: 1280px) {
+  .place__website {}
+}

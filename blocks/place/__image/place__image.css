@@ -3,3 +3,9 @@
   margin: 32px 0;
   display: block;
 }
+
+@media (min-width: 768px) {
+  .place__image {
+    margin: 0;
+  }
+}

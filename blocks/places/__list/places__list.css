@@ -2,3 +2,15 @@
   list-style: none;
   padding: unset;
 }
+
+@media (min-width: 768px) {
+  .places_list {}
+}
+
+@media (min-width: 1024px) {
+  .places_list {}
+}
+
+@media (min-width: 1280px) {
+  .places_list {}
+}
