@@ -1,4 +1,10 @@
+@import './__texts/cover__texts.css';
 @import './__title/cover__title.css';
 @import './__subtitle/cover__subtitle.css';
-
-.cover {}
+@import './__overlay/cover__overlay.css';
+@import './__background/cover__background.css';
+.cover {
+  position: relative;
+  width: 100%;
+  padding-bottom: 62.5%;
+}
