@@ -1,0 +1,6 @@
+@import './_center/flex-column_center_horizontal.css';
+@import './_padding/flex-column_padding_default.css';
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
