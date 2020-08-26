@@ -1,1 +1,23 @@
-.place__title {}
+.place__title {
+  margin: 0 0 0 16px;
+  font-size: 32px;
+  line-height: 35px;
+}
+
+@media (min-width: 768px) {
+  .place__title {
+    margin-left: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place__title {
+    margin-left: 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .place__title {
+    margin-left: 148px;
+  }
+}

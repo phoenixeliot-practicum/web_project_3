@@ -1,1 +1,4 @@
-.places__list {}
+.places__list {
+  list-style: none;
+  padding: unset;
+}
