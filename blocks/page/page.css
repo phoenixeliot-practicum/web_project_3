@@ -5,9 +5,3 @@
   color: white;
   font-family: 'Inter', sans-serif;
 }
-
-@supports (font-variation-settings: normal) {
-  .page {
-    font-family: 'Inter var', sans-serif;
-  }
-}

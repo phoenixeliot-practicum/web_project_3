@@ -6,4 +6,7 @@
 @import './__list-item-label/intro__list-item-label.css';
 @import './__list-item/intro__list-item.css';
 @import './__list/intro__list.css';
-.intro {}
+.intro {
+  color: white;
+  font-family: 'Inter', sans-serif;
+}

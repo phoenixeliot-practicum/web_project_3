@@ -5,8 +5,9 @@
 @import './__link/place__link.css';
 @import './__image/place__image.css';
 .place {
-  /* display: block; */
   margin: 48px 0;
+  color: white;
+  font-family: 'Inter', sans-serif;
 }
 
 @media (min-width: 768px) {

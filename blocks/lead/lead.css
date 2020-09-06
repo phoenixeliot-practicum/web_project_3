@@ -3,4 +3,7 @@
 @import './__image-container/lead__image-container.css';
 @import './__image/lead__image.css';
 @import './__caption/lead__caption.css';
-.lead {}
+.lead {
+  color: white;
+  font-family: 'Inter', sans-serif;
+}

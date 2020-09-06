@@ -1,2 +1,5 @@
 @import './__list/places__list.css';
-.places {}
+.places {
+  color: white;
+  font-family: 'Inter', sans-serif;
+}

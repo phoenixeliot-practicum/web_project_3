@@ -4,6 +4,8 @@
 @import './__copyright/footer__copyright.css';
 .footer {
   padding-bottom: 24px;
+  color: white;
+  font-family: 'Inter', sans-serif;
 }
 
 @media (min-width: 768px) {
