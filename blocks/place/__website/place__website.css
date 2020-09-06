@@ -10,11 +10,3 @@
     align-items: left;
   }
 }
-
-@media (min-width: 1024px) {
-  .place__website {}
-}
-
-@media (min-width: 1280px) {
-  .place__website {}
-}
