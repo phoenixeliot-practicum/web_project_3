@@ -1,5 +1,6 @@
 @import './__header/page__header.css';
 @import './__lead/page__lead.css';
 .page {
+  overflow: auto;
   background: #2A2C2F;
 }
