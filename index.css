@@ -13,13 +13,3 @@
 @import './blocks/place/place.css';
 @import './blocks/footer/footer.css';
 @import './blocks/cover/cover.css';
-/* Temporary: Working on mobile CSS first #nocommit */
-
-body {
-  background: #2A2C2F;
-}
-
-.page {
-  /* max-width: 320px; */
-  margin: 0 auto;
-}
