@@ -1,7 +1,6 @@
 @import './__title/intro__title.css';
-@import './__text/intro__text.css';
-@import './__text/_subtitle/intro__text_subtitle.css';
-@import './__text/_content/intro__text_content.css';
+@import './__text/intro__subtitle.css';
+@import './__text/intro__content.css';
 @import './__list-item-value/intro__list-item-value.css';
 @import './__list-item-label/intro__list-item-label.css';
 @import './__list-item/intro__list-item.css';
