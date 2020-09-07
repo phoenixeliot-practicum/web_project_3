@@ -6,6 +6,6 @@
 }
 
 .cover__overlay:hover {
-  opacity: 0.8;
+  opacity: .8;
   background: #2A2C2F;
 }
