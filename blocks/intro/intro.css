@@ -1,10 +1,11 @@
 @import './__title/intro__title.css';
-@import './__text/intro__subtitle.css';
-@import './__text/intro__content.css';
+@import './__subtitle/intro__subtitle.css';
+@import './__content/intro__content.css';
 @import './__list-item-value/intro__list-item-value.css';
 @import './__list-item-label/intro__list-item-label.css';
 @import './__list-item/intro__list-item.css';
 @import './__list/intro__list.css';
+
 .intro {
   color: white;
   font-family: 'Inter', sans-serif;
