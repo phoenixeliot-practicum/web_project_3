@@ -5,6 +5,9 @@
   gap: 12px;
   color: white;
   font-family: 'Inter', sans-serif;
+
+  padding-left: var(--column-margins);
+  padding-right: var(--column-margins);
 }
 
 @media (min-width: 768px) {

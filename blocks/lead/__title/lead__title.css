@@ -1,6 +1,8 @@
 .lead__title {
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: var(--column-margins);
+  padding-right: var(--column-margins);
   font-weight: 900;
   font-size: 40px;
   line-height: 44px;

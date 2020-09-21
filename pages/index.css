@@ -1,0 +1,38 @@
+@import '../vendor/normalize.css';
+@import '../fonts/inter.css';
+@import '../blocks/page/page.css';
+@import '../blocks/default-column/default-column.css';
+@import '../blocks/section/section.css';
+@import '../blocks/content/content.css';
+@import '../blocks/flex-column/flex-column.css';
+@import '../blocks/header/header.css';
+@import '../blocks/lead/lead.css';
+@import '../blocks/logo/logo.css';
+@import '../blocks/intro/intro.css';
+@import '../blocks/photo-grid/photo-grid.css';
+@import '../blocks/places/places.css';
+@import '../blocks/place/place.css';
+@import '../blocks/footer/footer.css';
+@import '../blocks/cover/cover.css';
+
+:root {
+  --column-margins: 16px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --column-margins: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --column-margins: 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  :root {
+    --column-margins: 148px;
+  }
+}
