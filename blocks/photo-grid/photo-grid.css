@@ -6,8 +6,7 @@
   color: white;
   font-family: 'Inter', sans-serif;
 
-  padding-left: var(--column-margins);
-  padding-right: var(--column-margins);
+  padding: 0 var(--column-margins);
 }
 
 @media (min-width: 768px) {
@@ -28,5 +27,6 @@
   .photo-grid {
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
+    padding: 0 48px;
   }
 }
