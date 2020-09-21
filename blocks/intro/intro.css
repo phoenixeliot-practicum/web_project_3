@@ -9,6 +9,7 @@
 .intro {
   color: white;
   font-family: 'Inter', sans-serif;
+  max-width: 690px;
 
   padding-left: var(--column-margins);
   padding-right: var(--column-margins);
