@@ -1,4 +1,24 @@
 .lead__image {
   width: 100%;
+  min-height: 200px;
   display: block;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .lead__image {
+    min-height: 480px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lead__image {
+    height: 580px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead__image {
+    height: 615px;
+  }
 }
