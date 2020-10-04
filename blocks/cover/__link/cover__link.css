@@ -1,5 +1,5 @@
 .cover__link {
-  color: white;
+  color: var(--primary-color-dark);
   text-align: center;
   text-decoration: none;
   /* display: block; */

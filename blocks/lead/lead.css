@@ -8,6 +8,6 @@
   flex-direction: column;
   align-items: center;
   padding-top: 60px;
-  color: white;
+  color: var(--primary-color);
   font-family: 'Inter', sans-serif;
 }

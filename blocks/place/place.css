@@ -6,7 +6,7 @@
 @import './__image/place__image.css';
 .place {
   margin: 48px 0;
-  color: white;
+  color: var(--primary-color);
   font-family: 'Inter', sans-serif;
 }
 
