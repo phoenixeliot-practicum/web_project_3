@@ -26,20 +26,7 @@
   --bg-color: var(--bg-color-dark);
   --svg-fill: invert(100%) sepia(0%) saturate(0%) hue-rotate(76deg) brightness(101%) contrast(102%);
   --primary-font-family: 'Inter', sans-serif;
-}
 
-[theme='light'] {
-  --primary-color: var(--primary-color-light);
-  --bg-color: var(--bg-color-light);
-  /* --svg-fill: invert(100%) sepia(0%) saturate(0%) hue-rotate(76deg) brightness(101%) contrast(102%); */
-  --svg-fill: invert(14%) sepia(14%) saturate(304%) hue-rotate(177deg) brightness(89%) contrast(88%);
-}
-
-body {
-  background: var(--bg-color);
-}
-
-:root {
   --column-margins: 16px;
 }
 
@@ -59,4 +46,14 @@ body {
   :root {
     --column-margins: 148px;
   }
+}
+
+body {
+  background: var(--bg-color);
+}
+
+[theme='light'] {
+  --primary-color: var(--primary-color-light);
+  --bg-color: var(--bg-color-light);
+  --svg-fill: invert(14%) sepia(14%) saturate(304%) hue-rotate(177deg) brightness(89%) contrast(88%);
 }
