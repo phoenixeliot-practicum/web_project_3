@@ -9,5 +9,5 @@
   align-items: center;
   padding-top: 60px;
   color: var(--primary-color);
-  font-family: 'Inter', sans-serif;
+  font-family: var(--primary-font-family);
 }

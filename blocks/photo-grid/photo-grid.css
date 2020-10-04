@@ -4,7 +4,7 @@
   grid-template-columns: 1fr;
   gap: 12px;
   color: var(--primary-color);
-  font-family: 'Inter', sans-serif;
+  font-family: var(--primary-font-family);
 
   padding: 0 var(--column-margins);
 }

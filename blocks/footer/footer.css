@@ -5,7 +5,7 @@
 .footer {
   padding-bottom: 24px;
   color: var(--primary-color);
-  font-family: 'Inter', sans-serif;
+  font-family: var(--primary-font-family);
 
   padding-left: var(--column-margins);
   padding-right: var(--column-margins);

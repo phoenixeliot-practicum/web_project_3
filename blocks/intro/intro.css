@@ -8,7 +8,7 @@
 
 .intro {
   color: var(--primary-color);
-  font-family: 'Inter', sans-serif;
+  font-family: var(--primary-font-family);
   max-width: 690px;
 
   padding-left: var(--column-margins);
