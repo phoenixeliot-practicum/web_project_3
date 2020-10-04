@@ -1,3 +1,4 @@
-[theme="light"] .theme-control__button_light {
-  text-decoration: underline;
+.theme-control__button_light {
+  color: var(--primary-color-light);
+  background: var(--bg-color-light);
 }
