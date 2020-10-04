@@ -5,9 +5,11 @@
 @import './__overlay/cover__overlay.css';
 @import './__background/cover__background.css';
 .cover {
-  position: relative;
+  /* position: relative; */
   width: 100%;
-  padding-bottom: 62.5%;
+  max-width: 1184px;
+  margin: 0 auto;
+  /* padding-bottom: 62.5%; */
   color: white;
   font-family: 'Inter', sans-serif;
 }
