@@ -14,6 +14,7 @@
 @import '../blocks/place/place.css';
 @import '../blocks/footer/footer.css';
 @import '../blocks/cover/cover.css';
+@import '../blocks/theme-control/theme-control.css';
 
 :root {
   --primary-color: white;
@@ -23,6 +24,7 @@
   --bg-color-light: white;
   --bg-color-dark: #2a2c2f;
   --svg-fill: invert(100%) sepia(0%) saturate(0%) hue-rotate(76deg) brightness(101%) contrast(102%);
+  --primary-font-family: 'Inter', sans-serif;
 }
 
 [theme='light'] {

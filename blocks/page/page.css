@@ -1,7 +1,18 @@
 @import './__header/page__header.css';
-@import './__lead/page__lead.css';
+@import './__theme-control/page__theme-control.css';
+
 .page {
-  overflow: auto;
+  position: relative;
   max-width: 1280px;
   margin: 0 auto;
+}
+
+.page {
+  padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .page {
+    padding-top: 34px;
+  }
 }

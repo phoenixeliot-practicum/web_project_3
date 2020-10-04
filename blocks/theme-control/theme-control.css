@@ -1,0 +1,17 @@
+@import './__item/theme-control__item.css';
+@import './__button/theme-control__button.css';
+@import './_theme/theme-control__button_theme_dark.css';
+@import './_theme/theme-control__button_theme_light.css';
+
+.theme-control {
+  list-style: none;
+  padding: 0;
+  display: inline-flex;
+  font-family: var(--primary-font-family);
+}
+
+.theme-control ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}

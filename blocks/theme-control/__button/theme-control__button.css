@@ -1,4 +1,4 @@
-.header__theme-button {
+.theme-control__button {
   margin-top: 10px;
   margin-left: 18px;
   font-size: 18px;
@@ -7,12 +7,8 @@
   text-decoration: none;
 }
 
-[theme="light"] .header__theme-button_light, [theme="dark"] .header__theme-button_dark {
-  text-decoration: underline;
-}
-
 @media (min-width: 768px) {
-  .header__theme-button {
+  .theme-control__button {
     margin-top: 12px;
     font-size: 24px;
     line-height: 28px;

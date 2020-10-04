@@ -1,0 +1,12 @@
+.page__theme-control {
+  margin: calc(20px + 10px) 24px 0 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+@media (min-width: 768px) {
+  .page__theme-control {
+    margin: calc(34px + 10px) 24px 0 0;
+  }
+}

@@ -8,10 +8,7 @@
 @import './__theme-button/header__theme-button.css';
 
 .header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
+  display: inline-block;
   color: var(--primary-color);
-  font-family: 'Inter', sans-serif;
+  font-family: var(--primary-font-family);
 }
