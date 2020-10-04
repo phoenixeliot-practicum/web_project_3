@@ -50,6 +50,7 @@
 
 body {
   background: var(--bg-color);
+  transition: background-color 0.2s ease-out;
 }
 
 [theme='light'] {
